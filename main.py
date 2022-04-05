@@ -1,5 +1,4 @@
 import time
-from tkinter.tix import Y_REGION
 import pyautogui
 from get_content import *
 
@@ -41,7 +40,7 @@ def mainloop():
     time.sleep(1)
     print("Here we GO!")
     #load_list()
-    links = get_links("amogus sus gif")
+    links = get_links("shrek")
     for link in links:
         print(link)
         click((427, 657)) #146, 657 for first tab

@@ -40,16 +40,16 @@ def mainloop():
     time.sleep(1)
     print("Here we GO!")
     #load_list()
-    links = get_links("shrek")
+    links = get_videos("yeeting cats")
     for link in links:
         print(link)
-        click((427, 657)) #146, 657 for first tab
+        click((979, 1014))  # 146, 657 for first tab
         time.sleep(0.3)
-        click((872, 387))
+        click((872 * 2, 387 * 2))
         write(link)
-        click((964, 194))
+        click((964 * 2, 194 * 2))
         time.sleep(1)
-        click((1100, 234)) #846, 176 for publish on first tab
+        click((1100 * 2, 234 * 2))  # 846, 176 for publish on first tab
         time.sleep(1)
 
 mainloop()
